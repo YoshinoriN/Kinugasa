@@ -5,11 +5,11 @@ My Library of .NET Framework.
 # Porpose
 * For sutudy code design.
 * For study english.
-* For stufy .NET Framework & C#
+* For study .NET Framework & C#
 
 # Build Status
 
-Using AppVeyor.
+Build is using by AppVeyor.
 
 |Build|
 |---|
