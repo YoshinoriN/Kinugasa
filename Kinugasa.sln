@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DA6648EB-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Xml", "src\Kinugasa.Xml\Kinugasa.Xml.csproj", "{E187D3EF-5205-44BA-BC88-B16ECFD7C36C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Cryptography", "Kinugasa.Cryptography\Kinugasa.Cryptography.csproj", "{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Cryptography", "src\Kinugasa.Cryptography\Kinugasa.Cryptography.csproj", "{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
