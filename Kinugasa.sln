@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Xml", "..\Kinugasa.Xml\Kinugasa.Xml.csproj", "{E187D3EF-5205-44BA-BC88-B16ECFD7C36C}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{65A6358E-AECA-48F0-873E-D9C16D1F1732}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DA6648EB-1CAD-4EF1-A6D0-A3B376AEEA23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Xml", "src\Kinugasa.Xml\Kinugasa.Xml.csproj", "{E187D3EF-5205-44BA-BC88-B16ECFD7C36C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
