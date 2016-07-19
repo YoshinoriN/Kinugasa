@@ -1,6 +1,6 @@
 # Kinugasa
 
-My Library of .NET Framework.
+My Library for .NET Framework.
 
 # Porpose
 * For sutudy code design.
