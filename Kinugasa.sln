@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Xml", "src\Kinugas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Cryptography", "src\Kinugasa.Cryptography\Kinugasa.Cryptography.csproj", "{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Mvvm.Core", "src\Kinugasa.Mvvm.Core\Kinugasa.Mvvm.Core.csproj", "{B486674F-200D-4892-88B1-58620DCE6C61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B486674F-200D-4892-88B1-58620DCE6C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B486674F-200D-4892-88B1-58620DCE6C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B486674F-200D-4892-88B1-58620DCE6C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B486674F-200D-4892-88B1-58620DCE6C61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,5 +38,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E187D3EF-5205-44BA-BC88-B16ECFD7C36C} = {65A6358E-AECA-48F0-873E-D9C16D1F1732}
 		{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621} = {65A6358E-AECA-48F0-873E-D9C16D1F1732}
+		{B486674F-200D-4892-88B1-58620DCE6C61} = {65A6358E-AECA-48F0-873E-D9C16D1F1732}
 	EndGlobalSection
 EndGlobal
