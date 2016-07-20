@@ -15,7 +15,10 @@ Build is using by AppVeyor.
 |---|
 |[![Build status](https://ci.appveyor.com/api/projects/status/mk3thjjapkd1u444/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/kinugasa)
 
-
 ## Development
 * C#
 * Visual Studio 2015
+
+## Build path
+
+All projects assembly will output to `root/bin/` directoy.
