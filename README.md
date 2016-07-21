@@ -19,5 +19,8 @@ Build is using AppVeyor.
 * C#
 * Visual Studio 2015
 
+# Dependent libraty
+Currently nothing.
+
 # Build path
 All project's assemblies will output to `root/bin/` directoy.
