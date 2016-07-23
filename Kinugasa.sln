@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{65A6358E-AECA-48F0-873E-D9C16D1F1732}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{65A6358E-AECA-48F0-873E-D9C16D1F1732}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DA6648EB-1CAD-4EF1-A6D0-A3B376AEEA23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Xml", "src\System\Kinugasa.Xml\Kinugasa.Xml.csproj", "{E187D3EF-5205-44BA-BC88-B16ECFD7C36C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Xml", "Source\System\Kinugasa.Xml\Kinugasa.Xml.csproj", "{E187D3EF-5205-44BA-BC88-B16ECFD7C36C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Cryptography", "src\System\Kinugasa.Cryptography\Kinugasa.Cryptography.csproj", "{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Cryptography", "Source\System\Kinugasa.Cryptography\Kinugasa.Cryptography.csproj", "{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Mvvm.Core", "src\Mvvm\Kinugasa.Mvvm.Core\Kinugasa.Mvvm.Core.csproj", "{B486674F-200D-4892-88B1-58620DCE6C61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Mvvm.Core", "Source\Mvvm\Kinugasa.Mvvm.Core\Kinugasa.Mvvm.Core.csproj", "{B486674F-200D-4892-88B1-58620DCE6C61}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mvvm", "Mvvm", "{B4A56ACB-7D75-4B1B-A57D-5B21D862DEFB}"
 EndProject
