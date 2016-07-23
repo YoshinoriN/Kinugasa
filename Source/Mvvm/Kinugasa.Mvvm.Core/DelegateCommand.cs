@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Windows.Input;
 
 /// <summary>
 /// Provide mvvm infrastructure.
@@ -9,15 +8,10 @@ namespace Kinugasa.Mvvm.Core
     /// <summary>
     /// Provide whoes create command. Can not use argument.
     /// </summary>
-    public class DelegateCommand : ICommand
+    public class DelegateCommand : DelegateCommandBase
     {
         private readonly Action _execute;
         private readonly Func<bool> _canExecute;
-
-        /// <summary>
-        /// When call RaiseCanExecuteChanged method.
-        /// </summary>
-        public event EventHandler CanExecuteChanged;
 
         /// <summary>
         /// Create new instance of DelegateCommand.
@@ -46,7 +40,7 @@ namespace Kinugasa.Mvvm.Core
         /// Defines the method when call the command.
         /// </summary>
         /// <param name="parameter"></param>
-        public void Execute(object parameter)
+        public override void Execute(object parameter)
         {
             this._execute();
         }
@@ -56,21 +50,9 @@ namespace Kinugasa.Mvvm.Core
         /// </summary>
         /// <param name="parameter"></param>
         /// <returns></returns>
-        public bool CanExecute(object parameter)
+        public override bool CanExecute(object parameter)
         {
             return _canExecute == null ? true : _canExecute();
-        }
-
-        /// <summary>
-        /// Call the RaiseCanExecuteChanged method.
-        /// </summary>
-        public void RaiseCanExecuteChanged()
-        {
-            var handler = CanExecuteChanged;
-            if (handler != null)
-            {
-                handler(this, EventArgs.Empty);
-            }
         }
     }
 
@@ -78,16 +60,11 @@ namespace Kinugasa.Mvvm.Core
     /// Provide whose defined command. Can use argument.
     /// Implemented ICommand.
     /// </summary>
-    public class DelegateCommand<T> : ICommand
+    public class DelegateCommand<T> : DelegateCommandBase
     {
 
         private readonly Action<T> _execute;
         private readonly Func<T, bool> _canExecute;
-
-        /// <summary>
-        /// When call RaiseCanExecuteChanged method.
-        /// </summary>
-        public event EventHandler CanExecuteChanged;
 
         /// <summary>
         /// Create new instance of DelegateCommand.
@@ -115,7 +92,7 @@ namespace Kinugasa.Mvvm.Core
         /// Defines the method when call the command.
         /// </summary>
         /// <param name="parameter"></param>
-        public void Execute(object parameter)
+        public override void Execute(object parameter)
         {
             this._execute((T)parameter);
         }
@@ -125,21 +102,9 @@ namespace Kinugasa.Mvvm.Core
         /// </summary>
         /// <param name="parameter"></param>
         /// <returns></returns>
-        public bool CanExecute(object parameter)
+        public override bool CanExecute(object parameter)
         {
             return _canExecute == null ? true : _canExecute((T)parameter);
-        }
-
-        /// <summary>
-        /// Call the RaiseCanExecuteChanged method.
-        /// </summary>
-        public void RaiseCanExecuteChanged()
-        {
-            var handler = CanExecuteChanged;
-            if (handler != null)
-            {
-                handler(this, EventArgs.Empty);
-            }
         }
     }
 }
