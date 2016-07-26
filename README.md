@@ -20,7 +20,8 @@ My Library for .NET Framework.
 
 # Development
 * C# 6
-* Visual Studio 2015
+* Visual Studio Community 2015
+* MSTest (On Visual Studio Community 2015)
 
 # .NET Framework Version
 * Higher than 4.5
