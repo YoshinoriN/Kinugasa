@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Xml", "Source\Syst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Cryptography", "Source\System\Kinugasa.Cryptography\Kinugasa.Cryptography.csproj", "{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Mvvm.Core", "Source\Mvvm\Kinugasa.Mvvm.Core\Kinugasa.Mvvm.Core.csproj", "{B486674F-200D-4892-88B1-58620DCE6C61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Mvvm", "Source\Mvvm\Kinugasa.Mvvm.Core\Kinugasa.Mvvm.csproj", "{B486674F-200D-4892-88B1-58620DCE6C61}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mvvm", "Mvvm", "{B4A56ACB-7D75-4B1B-A57D-5B21D862DEFB}"
 EndProject
