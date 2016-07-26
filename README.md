@@ -19,6 +19,9 @@ Build is using AppVeyor.
 * C#
 * Visual Studio 2015
 
+# .NET Framework version
+* Higher than 4.5
+
 # Dependent libraty
 Currently nothing.
 
