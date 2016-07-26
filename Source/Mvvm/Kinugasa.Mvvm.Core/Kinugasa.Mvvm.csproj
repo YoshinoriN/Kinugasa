@@ -7,8 +7,8 @@
     <ProjectGuid>{B486674F-200D-4892-88B1-58620DCE6C61}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Kinugasa.Mvvm.Core</RootNamespace>
-    <AssemblyName>Kinugasa.Mvvm.Core</AssemblyName>
+    <RootNamespace>Kinugasa.Mvvm</RootNamespace>
+    <AssemblyName>Kinugasa.Mvvm</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BindableBase.cs" />
+    <Compile Include="DelegateCommand.cs" />
+    <Compile Include="DelegateCommandBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
