@@ -1,8 +1,8 @@
+[Japanese](README.JP.md)
+
 # Kinugasa 
 
 My Library for .NET Framework.
-
-[japanese](README.JP.md)
 
 # Porpose
 * For sutudy code design.
