@@ -1,4 +1,6 @@
-# Kinugasa
+[Japanese](README.JP.md)
+
+# Kinugasa 
 
 My Library for .NET Framework.
 
