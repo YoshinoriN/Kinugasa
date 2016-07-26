@@ -16,13 +16,13 @@ Build is using AppVeyor.
 |[![Build status](https://ci.appveyor.com/api/projects/status/mk3thjjapkd1u444/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/kinugasa)
 
 # Development
-* C#
+* C# 6
 * Visual Studio 2015
 
-# .NET Framework version
+# .NET Framework Version
 * Higher than 4.5
 
-# Dependent libraty
+# Dependent library
 Currently nothing.
 
 # Build path
