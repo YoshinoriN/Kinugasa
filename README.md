@@ -8,14 +8,15 @@ My Library for .NET Framework.
 * For study .NET Framework & C#
 * Try to use CI services.
 
-# CI Status
+# CI Statuses
 
 |Porpose|Service|Status|
 |---|---|---|
-|Build|AppVeyor|[![Build status](https://ci.appveyor.com/api/projects/status/mk3thjjapkd1u444/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/kinugasa)
+|Build & Test|AppVeyor|[![Build status](https://ci.appveyor.com/api/projects/status/mk3thjjapkd1u444/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/kinugasa)|
+|Build for mono|TravisCI|Plannning|
 |Static Code Analysis|CodeClimate|[![Issue Count](https://codeclimate.com/github/YoshinoriN/Kinugasa/badges/issue_count.svg)](https://codeclimate.com/github/YoshinoriN/Kinugasa)|
-|Static Code Analysis|SonarQube|Preparing|
-|Coverage|Coveralls|Preparing|
+|Static Code Analysis|SonarQube|Plannning|
+|Coverage|Coveralls|Plannning|
 
 # Development
 * C# 6
