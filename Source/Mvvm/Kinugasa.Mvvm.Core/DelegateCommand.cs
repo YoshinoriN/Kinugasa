@@ -3,7 +3,7 @@
 /// <summary>
 /// Provide mvvm infrastructure.
 /// </summary>
-namespace Kinugasa.Mvvm.Core
+namespace Kinugasa.Mvvm
 {
     /// <summary>
     /// Provide whoes create command. Can not use argument.
