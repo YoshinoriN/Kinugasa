@@ -15,10 +15,10 @@ My Library for .NET Framework.
 |Porpose|Service|Status|
 |---|---|---|
 |Build & Test|AppVeyor|[![Build status](https://ci.appveyor.com/api/projects/status/mk3thjjapkd1u444/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/kinugasa)|
-|Build for mono|TravisCI|Plannning|
+|Build for mono|TravisCI|Planning|
 |Static Code Analysis|CodeClimate|[![Issue Count](https://codeclimate.com/github/YoshinoriN/Kinugasa/badges/issue_count.svg)](https://codeclimate.com/github/YoshinoriN/Kinugasa)|
-|Static Code Analysis|SonarQube|Plannning|
-|Coverage|Coveralls|Plannning|
+|Static Code Analysis|SonarQube|Planning|
+|Coverage|Coveralls|Planning|
 
 # Development
 * C# 6
