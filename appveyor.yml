@@ -4,7 +4,6 @@ branches:
     - develop/*
 
 skip_tags: true
-skip_commits: *\.(png|jpg|jpeg|bmp|gif|md)/
 
 image: Visual Studio 2015
 
