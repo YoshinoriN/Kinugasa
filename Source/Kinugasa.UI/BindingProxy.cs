@@ -1,5 +1,8 @@
 ﻿using System.Windows;
 
+/// <summary>
+/// Provide userinterface components.
+/// </summary>
 namespace Kinugasa.UI
 {
     /// <summary>
