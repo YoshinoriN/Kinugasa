@@ -1,0 +1,14 @@
+engines:
+  fixme:
+    enabled: true
+    config:
+      strings:
+      - FIXME
+      - BUG
+      - CUSTOM
+      - HACK
+      - TODO
+  markdownlint:
+    enabled: true
+exclude_paths:
+- "Test/"
