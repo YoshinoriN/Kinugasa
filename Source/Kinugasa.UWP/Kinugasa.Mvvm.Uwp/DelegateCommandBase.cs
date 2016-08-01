@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace Kinugasa.Mvvm.uwp
+namespace Kinugasa.Uwp.Mvvm
 {
     /// <summary>
     /// Abstract class for implement command class. 
