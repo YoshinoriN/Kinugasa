@@ -1,6 +1,6 @@
 # Kinugasa 
 
-My Library for .NET Framework.
+My Library for .NET
 
 # Porpose
 * For sutudy code design.
@@ -22,9 +22,6 @@ My Library for .NET Framework.
 * C# 6
 * Visual Studio Community 2015
 * MSTest (On Visual Studio Community 2015)
-
-# .NET Framework Version
-* Higher than 4.5
 
 # Dependent library
 Currently nothing.
