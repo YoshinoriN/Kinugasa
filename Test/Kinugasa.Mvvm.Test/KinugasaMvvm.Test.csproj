@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Source\Kinugasa.Mvvm\Kinugasa.Mvvm.csproj">
-      <Project>{b486674f-200d-4892-88b1-58620dce6c61}</Project>
+      <Project>{3b314f51-434d-45da-9a0d-a436b837050a}</Project>
       <Name>Kinugasa.Mvvm</Name>
     </ProjectReference>
   </ItemGroup>
