@@ -4,7 +4,7 @@ using System.Runtime.CompilerServices;
 /// <summary>
 /// Provide mvvm infrastructure.
 /// </summary>
-namespace Kinugasa.Mvvm.uwp
+namespace Kinugasa.Uwp.Mvvm
 {
     /// <summary>
     /// Provide notification when propertie's values will change.

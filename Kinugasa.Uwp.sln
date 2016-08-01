@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Mvvm.Uwp", "Source\Kinugasa.UWP\Kinugasa.Mvvm.Uwp\Kinugasa.Mvvm.Uwp.csproj", "{C49E5700-9951-4D4F-A534-800DEA3CFA89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Uwp.Mvvm", "Source\Kinugasa.UWP\Kinugasa.Mvvm.Uwp\Kinugasa.Uwp.Mvvm.csproj", "{C49E5700-9951-4D4F-A534-800DEA3CFA89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
