@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Kinugasa.Mvvm.Uwp")]
+[assembly: AssemblyTitle("Kinugasa.Uwp.Mvvm")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Kinugasa.Mvvm.Uwp")]
+[assembly: AssemblyProduct("Kinugasa.Uwp.Mvvm")]
 [assembly: AssemblyCopyright("Copyright ©Yoshinori.N 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

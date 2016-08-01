@@ -7,8 +7,8 @@
     <ProjectGuid>{C49E5700-9951-4D4F-A534-800DEA3CFA89}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Kinugasa.Mvvm.Uwp</RootNamespace>
-    <AssemblyName>Kinugasa.Mvvm.Uwp</AssemblyName>
+    <RootNamespace>Kinugasa.Uwp.Mvvm</RootNamespace>
+    <AssemblyName>Kinugasa.Uwp.Mvvm</AssemblyName>
     <DefaultLanguage>ja-JP</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
