@@ -8,7 +8,7 @@ namespace Kinugasa.Uwp.Mvvm
     /// <summary>
     /// Provide whoes create command. Can not use argument.
     /// </summary>
-    public class DelegateCommand : DelegateCommandBase
+    public class DelegateCommand : Kinugasa.Mvvm.DelegateCommandBase
     {
         private readonly Action _execute;
         private readonly Func<bool> _canExecute;
@@ -60,7 +60,7 @@ namespace Kinugasa.Uwp.Mvvm
     /// Provide whose defined command. Can use argument.
     /// Implemented ICommand.
     /// </summary>
-    public class DelegateCommand<T> : DelegateCommandBase
+    public class DelegateCommand<T> : Kinugasa.Mvvm.DelegateCommandBase
     {
 
         private readonly Action<T> _execute;

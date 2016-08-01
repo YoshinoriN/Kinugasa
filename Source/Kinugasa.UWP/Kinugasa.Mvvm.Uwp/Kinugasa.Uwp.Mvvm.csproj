@@ -109,9 +109,14 @@
   <ItemGroup>
     <Compile Include="BindableBase.cs" />
     <Compile Include="DelegateCommand.cs" />
-    <Compile Include="DelegateCommandBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Kinugasa.Mvvm.Uwp.rd.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Kinugasa.Mvvm, Version=1.1.6057.40845, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\bin\Release\Kinugasa.Mvvm.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
