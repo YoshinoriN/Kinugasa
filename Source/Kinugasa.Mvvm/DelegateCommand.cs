@@ -76,7 +76,7 @@ namespace Kinugasa.Mvvm
         /// Create new instance of DelegateCommand.
         /// </summary>
         /// <param name="execute">Execute method.</param>
-        /// <param name="canExecute">When can call execute method. Can input null.</param>
+        /// <param name="canExecute">When can call execute method.</param>
         public DelegateCommand(Action<T> execute, Func<T, bool> canExecute)
         {
             if (execute == null)
