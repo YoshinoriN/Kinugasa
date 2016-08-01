@@ -18,6 +18,15 @@ My Library for .NET
 |Static Code Analysis|SonarQube|Planning||
 |Coverage|Coveralls|Planning||
 
+# Releases
+
+Please see [releases page.](https://github.com/YoshinoriN/Kinugasa/releases)
+
+|Assembly|Type|Version|Remark|
+|---|---|---|---|
+|Kinugasa.Mvvm|PCL|![](https://img.shields.io/badge/Kinugasa.Mvvm-v1.1.0-blue.svg)|MVVM Library|
+|Kinugasa.Uwp.Mvvm|Windows10|![](https://img.shields.io/badge/Kinugasa.Mvvm-v1.1.0-blue.svg)|MVVM Library for Windows10|
+
 # Development
 * C# 6
 * Visual Studio Community 2015
