@@ -13,7 +13,7 @@
 
 |目的|利用サービス|状態|備考|
 |---|---|---|---|
-|ビルドとテスト|AppVeyor|[![Build status](https://ci.appveyor.com/api/projects/status/mk3thjjapkd1u444/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/kinugasa)|UWPがなぜかビルド通らないのでいつも落ちてる|
+|ビルドとテスト|AppVeyor|[![Build status](https://ci.appveyor.com/api/projects/status/mk3thjjapkd1u444/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/kinugasa)|AppVeyorでビルドできないのでUWPは未ビルド|
 |monoでのビルド|TravisCI|計画中||
 |静的解析|CodeClimate|[![Issue Count](https://codeclimate.com/github/YoshinoriN/Kinugasa/badges/issue_count.svg)](https://codeclimate.com/github/YoshinoriN/Kinugasa)||
 |静的解析|SonarQube|計画中||
