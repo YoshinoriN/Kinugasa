@@ -107,6 +107,8 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Feed\Content.cs" />
+    <Compile Include="Feed\Downloader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Kinugasa.Uwp.Web.rd.xml" />
   </ItemGroup>
