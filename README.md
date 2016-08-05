@@ -18,14 +18,15 @@ My Library for .NET
 |Static Code Analysis|SonarQube|Planning||
 |Coverage|CodeCov|[![codecov](https://codecov.io/gh/YoshinoriN/Kinugasa/branch/master/graph/badge.svg)](https://codecov.io/gh/YoshinoriN/Kinugasa)|Only create project on CodeCov.|
 
-# Releases
+# Releases & Development plan 
 
 Please see [releases page.](https://github.com/YoshinoriN/Kinugasa/releases)
 
-|Assembly|Type|Version|Remark|
-|---|---|---|---|
-|Kinugasa.Mvvm|PCL|![](https://img.shields.io/badge/Kinugasa.Mvvm-v1.1.0-blue.svg)|MVVM Library|
-|Kinugasa.Uwp.Mvvm|Windows10|![](https://img.shields.io/badge/Kinugasa.Mvvm-v1.1.0-blue.svg)|MVVM Library for Windows10|
+|NameSpace|PCL|Windows10|Remark|Document|
+|---|---|---|---|---|
+|Mvvm|![](https://img.shields.io/badge/release-v1.1.0-blue.svg) <br> [Download](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|![](https://img.shields.io/badge/release-v1.1.0-blue.svg) <br> [Download](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|Minimum required MVVM library||
+|Web|None|![](https://img.shields.io/badge/Canditate-v1.0.0-yellow.svg) |Web service operation library||
+|UI|![](https://img.shields.io/badge/Canditate-v1.0.0-yellow.svg)|None|User interface library||
 
 # Development
 * C# 6
