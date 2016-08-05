@@ -16,7 +16,7 @@ My Library for .NET
 |Build for mono|TravisCI|Planning||
 |Static Code Analysis|CodeClimate|[![Issue Count](https://codeclimate.com/github/YoshinoriN/Kinugasa/badges/issue_count.svg)](https://codeclimate.com/github/YoshinoriN/Kinugasa)|Only check Markdown syntax and code's comments.|
 |Static Code Analysis|SonarQube|Planning||
-|Coverage|Coveralls|[![Coverage Status](https://coveralls.io/repos/github/YoshinoriN/Kinugasa/badge.svg?branch=master)](https://coveralls.io/github/YoshinoriN/Kinugasa?branch=master)|Only create project on Caveralls.|
+|Coverage|CodeCov|[![codecov](https://codecov.io/gh/YoshinoriN/Kinugasa/branch/master/graph/badge.svg)](https://codecov.io/gh/YoshinoriN/Kinugasa)|Only create project on CodeCov.|
 
 # Releases
 
