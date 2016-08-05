@@ -14,4 +14,4 @@ configuration: Release
 build: 
   parallel: true
   project: Kinugasa.sln
-  verbosity: normal
+  verbosity: detailed
