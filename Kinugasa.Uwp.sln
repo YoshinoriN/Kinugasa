@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System", "System", "{4C66AC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Uwp.Web", "Source\Kinugasa.UWP\Kinugasa.Uwp.Web\Kinugasa.Uwp.Web.csproj", "{BEA1454A-FF99-4AE5-8332-24C48C8603C3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{1B1BD6AF-CAC6-4DB2-A1CB-741F51B5D834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{FC66FA27-5E81-4522-A157-0D4EC8598588}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +62,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{C49E5700-9951-4D4F-A534-800DEA3CFA89} = {FC66FA27-5E81-4522-A157-0D4EC8598588}
+		{4C66AC6A-6E74-4792-B353-1AB49168884F} = {FC66FA27-5E81-4522-A157-0D4EC8598588}
 		{BEA1454A-FF99-4AE5-8332-24C48C8603C3} = {4C66AC6A-6E74-4792-B353-1AB49168884F}
 	EndGlobalSection
 EndGlobal

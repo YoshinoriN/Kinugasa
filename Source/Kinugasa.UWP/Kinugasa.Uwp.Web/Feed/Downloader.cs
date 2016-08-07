@@ -10,7 +10,7 @@ namespace Kinugasa.Uwp.Web.Feed
     public class Downloader
     {
         /// <summary>
-        /// Download RSS feed and return <see cref="SyndicationFeed"/> object.
+        /// Download RSS or Atom feed and return <see cref="SyndicationFeed"/> object.
         /// </summary>
         /// <param name="uri"><see cref="Uri"/></param>
         /// <returns><see cref="SyndicationFeed"/> object.</returns>
@@ -26,6 +26,16 @@ namespace Kinugasa.Uwp.Web.Feed
             {
                 throw new System.Net.Http.HttpRequestException(ex.Message, ex);
             }
+        }
+
+        /// <summary>
+        /// Download RSS or Atom feed and return <see cref="SyndicationFeed"/> object.
+        /// </summary>
+        /// <param name="url">URL</param>
+        /// <returns><see cref="SyndicationFeed"/> object.</returns>
+        public async Task<SyndicationFeed> DownloadFeedsAsync(string url)
+        {
+            return await DownloadFeedsAsync(new System.Uri(url));
         }
     }
 }
