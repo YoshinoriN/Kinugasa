@@ -25,7 +25,7 @@ Please see [releases page.](https://github.com/YoshinoriN/Kinugasa/releases)
 |NameSpace|PCL|Windows10|Remark|Document|
 |---|---|---|---|---|
 |Mvvm|![](https://img.shields.io/badge/release-v1.1.0-blue.svg) <br> [Download](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|![](https://img.shields.io/badge/release-v1.1.0-blue.svg) <br> [Download](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|Minimum MVVM library||
-|Web|None|![](https://img.shields.io/badge/Canditate-v1.0.0-yellow.svg) |Web service operation library||
+|Web|None|![](https://img.shields.io/badge/release-v1.0.0-blue.svg) <br> [Download](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Uwp.Web.v1.0.0) |Web service operation library||
 |UI|![](https://img.shields.io/badge/Canditate-v1.0.0-yellow.svg)|None|User interface library||
 
 # Development
