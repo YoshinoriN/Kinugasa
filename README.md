@@ -20,7 +20,7 @@ My Library for .NET
 
 # Releases & Development plan 
 
-Please see [releases page.](https://github.com/YoshinoriN/Kinugasa/releases)
+Please see [releases page](https://github.com/YoshinoriN/Kinugasa/releases), if you want to see deteal.
 
 |NameSpace|PCL|Windows10|Remark|Document|
 |---|---|---|---|---|
@@ -33,7 +33,7 @@ Please see [releases page.](https://github.com/YoshinoriN/Kinugasa/releases)
 * Visual Studio Community 2015
 * MSTest (On Visual Studio Community 2015)
 
-# Dependent library
+# Dependency library
 Currently nothing.
 
 # Build path
