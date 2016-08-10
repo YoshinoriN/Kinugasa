@@ -60,7 +60,7 @@
     <Compile Include="DelegateCommandTest.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Source\ClassicAndPCL\Kinugasa.Mvvm\Kinugasa.Mvvm.csproj">
+    <ProjectReference Include="..\..\..\Source\ClassicAndPCL\Kinugasa.Mvvm\Kinugasa.Mvvm.csproj">
       <Project>{3b314f51-434d-45da-9a0d-a436b837050a}</Project>
       <Name>Kinugasa.Mvvm</Name>
     </ProjectReference>
