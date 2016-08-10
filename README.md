@@ -38,3 +38,9 @@ Currently nothing.
 
 # Build path
 All project's assemblies will output to `root/bin/` directoy.
+
+# LICENSE
+
+[![License](https://img.shields.io/github/license/YoshinoriN/kinugasa.svg?style=flat-square)](https://github.com/YoshinoriN/kinugasa/blob/master/LICENSE)
+
+* [MIT License (MIT)](LICENSE)
