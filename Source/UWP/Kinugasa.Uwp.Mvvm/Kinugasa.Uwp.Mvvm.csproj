@@ -113,10 +113,10 @@
     <EmbeddedResource Include="Properties\Kinugasa.Mvvm.Uwp.rd.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Kinugasa.Mvvm, Version=1.1.6057.40845, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\bin\Release\Kinugasa.Mvvm.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\ClassicAndPCL\Kinugasa.Mvvm\Kinugasa.Mvvm.csproj">
+      <Project>{3b314f51-434d-45da-9a0d-a436b837050a}</Project>
+      <Name>Kinugasa.Mvvm</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
