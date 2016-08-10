@@ -22,7 +22,7 @@ My Library for .NET
 
 Please see [releases page](https://github.com/YoshinoriN/Kinugasa/releases), if you want to see deteal.
 
-|NameSpace|PCL|Windows10|Remark|Document|
+|NameSpace|PCL|Windows10|Overview|Document|
 |---|---|---|---|---|
 |Mvvm|[![](https://img.shields.io/badge/release-v1.1.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|[![](https://img.shields.io/badge/release-v1.1.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|Minimum MVVM library|[Document](/Document/Mvvm.md)|
 |Web|None|[![](https://img.shields.io/badge/release-v1.0.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Uwp.Web.v1.0.0)|Web service operation library|[Document](/Document/Web.md)|
