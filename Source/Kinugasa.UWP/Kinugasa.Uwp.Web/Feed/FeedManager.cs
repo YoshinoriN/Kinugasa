@@ -22,9 +22,25 @@ namespace Kinugasa.Uwp.Web.Feed
 
         /// <summary>
         /// Limit of number of download feeds.
-        /// Hack : To user can setting using by something setting file.
         /// </summary>
-        private int _limitOfFees { get; set; } = 10;
+        private int _limitOfFeeds { get; }
+
+        /// <summary>
+        /// Constructor.
+        /// </summary>
+        public FeedManager()
+        {
+
+        }
+
+        /// <summary>
+        /// Constructor.
+        /// </summary>
+        /// <param name="limitOfFeeds">Can specify limit of get number of feeds.</param>
+        public FeedManager(int limitOfFeeds)
+        {
+            this._limitOfFeeds = limitOfFeeds;
+        }
 
         /// <summary>
         /// Get feed of specified uri's feed.
@@ -58,25 +74,16 @@ namespace Kinugasa.Uwp.Web.Feed
         private List<Feed> GetFeeds(SyndicationFeed feeds)
         {
             this.CurrentWebSiteFees.Clear();
+            int i = 1;
             foreach (var feed in feeds.Items)
             {
-                int i = 0;
-                if (_limitOfFees > i)
+                if (_limitOfFeeds < i)
                 {
                     this.AddAllWebSiteFeeds(this.CurrentWebSiteFees);
                     return CurrentWebSiteFees.ToList();
                 }
-                CurrentWebSiteFees.Add(new Feed(feed.Id
-                                     , feed.BaseUri
-                                     , feed.Title.ToString()
-                                     , feed.Summary.ToString()
-                                     , feed.Categories.ToList()
-                                     , feed.Authors.ToList()
-                                     , feed.Links.ToList()
-                                     , feed.PublishedDate
-                                     , feed.LastUpdatedTime
-                                     ));
-                this._limitOfFees++;
+                CurrentWebSiteFees.Add(new Feed(feed));
+                i++;
             }
             this.AddAllWebSiteFeeds(this.CurrentWebSiteFees);
             return CurrentWebSiteFees.ToList();
@@ -90,16 +97,7 @@ namespace Kinugasa.Uwp.Web.Feed
         {
             foreach (var feed in feeds)
             {
-                this.AllWebSitesFeeds.Add(new Feed(feed.Id
-                                     , feed.BaseUri
-                                     , feed.Title.ToString()
-                                     , feed.Summary.ToString()
-                                     , feed.Categories.ToList()
-                                     , feed.Authors.ToList()
-                                     , feed.Links.ToList()
-                                     , feed.PublishDate
-                                     , feed.LastUpdatedTime
-                                     ));
+                this.AllWebSitesFeeds.Add(feed);
             }
         }
 
