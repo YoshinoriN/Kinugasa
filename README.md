@@ -12,7 +12,7 @@ My Library for .NET
 
 |Porpose|Service|Status|Remark|
 |---|---|---|---|
-|Build & Test|AppVeyor|[![Build status](https://ci.appveyor.com/api/projects/status/mk3thjjapkd1u444/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/kinugasa)||
+|Build & Test|AppVeyor|[![Build status](https://ci.appveyor.com/api/projects/status/mk3thjjapkd1u444/branch/master?svg=true)](https://ci.appveyor.com/project/YoshinoriN/kinugasa)|* Build all projects. <br> * Check test code. <br> * Crete coverage report and send it to CodeCov.|
 |Build for mono|TravisCI|Planning||
 |Static Code Analysis|CodeClimate|[![Issue Count](https://codeclimate.com/github/YoshinoriN/Kinugasa/badges/issue_count.svg)](https://codeclimate.com/github/YoshinoriN/Kinugasa)|Only check Markdown syntax and code's comments.|
 |Static Code Analysis|SonarQube|Planning||
