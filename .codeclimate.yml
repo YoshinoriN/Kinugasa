@@ -10,5 +10,20 @@ engines:
       - TODO
   markdownlint:
     enabled: true
+      checks:
+        MD013:
+          enabled: false
+        MD022:
+          enabled: false
+        MD024:
+          enabled: false
+        MD025:
+          enabled: false
+        MD031:
+          enabled: false
+        MD032:
+          enabled: false
+        MD033:
+          enabled: false
 exclude_paths:
 - "Test/"
