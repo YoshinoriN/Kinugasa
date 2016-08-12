@@ -1,4 +1,4 @@
-# Kinugasa 
+# Kinugasa
 
 My Library for .NET
 
@@ -18,7 +18,7 @@ My Library for .NET
 |Static Code Analysis|SonarQube|Planning||
 |Coverage|CodeCov|[![codecov](https://codecov.io/gh/YoshinoriN/Kinugasa/branch/master/graph/badge.svg)](https://codecov.io/gh/YoshinoriN/Kinugasa)|Receive test coverage report from AppVeyor.|
 
-# Releases & Development plan 
+# Releases & Development plan
 
 Please see [releases page](https://github.com/YoshinoriN/Kinugasa/releases), if you want to see deteal.
 
