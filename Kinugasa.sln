@@ -5,9 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{65A6358E-AECA-48F0-873E-D9C16D1F1732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Xml", "Source\ClassicAndPCL\System\Kinugasa.Xml\Kinugasa.Xml.csproj", "{E187D3EF-5205-44BA-BC88-B16ECFD7C36C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Xml", "Source\Shared\System\Kinugasa.Xml\Kinugasa.Xml.csproj", "{E187D3EF-5205-44BA-BC88-B16ECFD7C36C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Cryptography", "Source\ClassicAndPCL\System\Kinugasa.Cryptography\Kinugasa.Cryptography.csproj", "{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Cryptography", "Source\Shared\System\Kinugasa.Cryptography\Kinugasa.Cryptography.csproj", "{0F2B8DEF-E942-4C47-ADB9-31ADA3EB4621}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mvvm", "Mvvm", "{B4A56ACB-7D75-4B1B-A57D-5B21D862DEFB}"
 EndProject
@@ -17,13 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E19A97D9-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mvvm", "Mvvm", "{002C7E1D-F6E9-45E2-B731-8506F3996FF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinugasaMvvm.Test", "Test\ClassicAndPCL\Kinugasa.Mvvm.Test\KinugasaMvvm.Test.csproj", "{BD1A183E-D590-464D-974B-2D0C8C76255E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinugasaMvvm.Test", "Test\Shared\Kinugasa.Mvvm.Test\KinugasaMvvm.Test.csproj", "{BD1A183E-D590-464D-974B-2D0C8C76255E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Mvvm", "Source\ClassicAndPCL\Kinugasa.Mvvm\Kinugasa.Mvvm.csproj", "{3B314F51-434D-45DA-9A0D-A436B837050A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Mvvm", "Source\Shared\Kinugasa.Mvvm\Kinugasa.Mvvm.csproj", "{3B314F51-434D-45DA-9A0D-A436B837050A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{9EA5EB01-26D4-4B90-AA71-C028BA77693F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.UI", "Source\ClassicAndPCL\Kinugasa.UI\Kinugasa.UI.csproj", "{5578F604-47F3-4DAD-9E67-2E7420514C7E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.UI", "Source\Shared\Kinugasa.UI\Kinugasa.UI.csproj", "{5578F604-47F3-4DAD-9E67-2E7420514C7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UWP", "UWP", "{EE9D884A-BDC0-48E4-98BE-2B5BF8590A65}"
 EndProject
@@ -35,9 +35,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System", "System", "{82C768
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Uwp.Web", "Source\UWP\Kinugasa.Uwp.Web\Kinugasa.Uwp.Web.csproj", "{BEA1454A-FF99-4AE5-8332-24C48C8603C3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassicAndPCL", "ClassicAndPCL", "{ACC739CD-AC35-4CCF-A343-C19E549D265A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{ACC739CD-AC35-4CCF-A343-C19E549D265A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassicAndPCL", "ClassicAndPCL", "{A00C0CD6-EE91-4B31-A636-2FE0C8AD1F1C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{A00C0CD6-EE91-4B31-A636-2FE0C8AD1F1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
