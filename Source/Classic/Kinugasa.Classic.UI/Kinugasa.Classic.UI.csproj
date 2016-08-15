@@ -7,8 +7,8 @@
     <ProjectGuid>{5578F604-47F3-4DAD-9E67-2E7420514C7E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Kinugasa.UI</RootNamespace>
-    <AssemblyName>Kinugasa.UI</AssemblyName>
+    <RootNamespace>Kinugasa.Classic.UI</RootNamespace>
+    <AssemblyName>Kinugasa.Classic.UI</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

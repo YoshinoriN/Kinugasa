@@ -3,7 +3,7 @@
 /// <summary>
 /// Provide userinterface components.
 /// </summary>
-namespace Kinugasa.UI
+namespace Kinugasa.Classic.UI
 {
     /// <summary>
     /// Proxy class for binding sorce.
