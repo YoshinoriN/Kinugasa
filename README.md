@@ -27,7 +27,7 @@ Please see [releases page](https://github.com/YoshinoriN/Kinugasa/releases), if 
 |Mvvm|Same as PCL|[![](https://img.shields.io/badge/release-v1.1.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|[![](https://img.shields.io/badge/release-v1.1.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|Minimum MVVM library.|[Document](/Document/Mvvm.md)|
 |Regrex|Same as PCL|![](https://img.shields.io/badge/Canditate-v1.0.0-yellow.svg)|Same as PCL|Check regular expression library.||
 |UI|![](https://img.shields.io/badge/Canditate-TDB-yellow.svg)|[![](https://img.shields.io/badge/release-v1.0.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.UI.v1.0.0)|Same as PCL|User interface library.||
-|Web|Same as PCL|None|[![](https://img.shields.io/badge/release-v1.0.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Uwp.Web.v1.0.0)|Web service operation library.|[Document](/Document/Web.md)|
+|Web|-|-|[![](https://img.shields.io/badge/release-v1.0.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Uwp.Web.v1.0.0)|Web service operation library.|[Document](/Document/Web.md)|
 
 # Development
 * C# 6
