@@ -18,7 +18,11 @@ build:
   verbosity: normal
 
 after_test:
-    - .\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -target:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\MSTest.exe" -targetargs:"/noisolation /testcontainer:""Mvvm.Test.dll" -targetdir:".\Test\bin\Release" -excludebyattribute:*.ExcludeFromCodeCoverage* -hideskipped:All -output:Kinugasa_coverage.xml
+    - .\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -target:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\MSTest.exe" -targetargs:"/noisolation /testcontainer:""Mvvm.Test.dll" -targetdir:".\Test\bin\Release" -excludebyattribute:*.ExcludeFromCodeCoverage* -hideskipped:All -output:Kinugasa_mvvm.xml
     - "SET PATH=C:\\Python34;C:\\Python34\\Scripts;%PATH%"
     - pip install codecov
-    - codecov -f "Kinugasa_coverage.xml"
+    - codecov -f "Kinugasa_mvvm.xml"
+    - .\packages\OpenCover.4.6.519\tools\OpenCover.Console.exe -register:user -target:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\MSTest.exe" -targetargs:"/noisolation /testcontainer:""Kinugasa.UI.Test.dll" -targetdir:".\Test\bin\Release" -excludebyattribute:*.ExcludeFromCodeCoverage* -hideskipped:All -output:Kinugasa_UI.xml
+    - "SET PATH=C:\\Python34;C:\\Python34\\Scripts;%PATH%"
+    - pip install codecov
+    - codecov -f "Kinugasa_UI.xml"
