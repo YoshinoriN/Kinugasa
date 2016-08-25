@@ -9,7 +9,7 @@ namespace Mvvm.Test
     public class DelegateCommandBaseTest
     {
         [TestMethod]
-        public void RaisCanExecute()
+        public void RaisCanExecuteNotNull()
         {
             var command = new Kinugasa.Mvvm.DelegateCommand(Mocks.MockMethods.MockMethod, null);
             bool canExecuteChangeraised = false;
@@ -17,6 +17,14 @@ namespace Mvvm.Test
             command.RaiseCanExecuteChanged();
 
             Assert.IsTrue(canExecuteChangeraised);
+        }
+
+        [TestMethod]
+        public void RaisCanExecuteIsNull()
+        {
+            var command = new Kinugasa.Mvvm.DelegateCommand(Mocks.MockMethods.MockMethod, null);
+            command.CanExecuteChanged += null ;
+            command.RaiseCanExecuteChanged();
         }
     }
 
