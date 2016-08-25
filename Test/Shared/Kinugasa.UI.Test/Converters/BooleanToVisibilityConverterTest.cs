@@ -13,7 +13,7 @@ namespace Kinugasa.UI.Test
     [TestClass]
     public class BooleanToVisibilityConverterTest
     {
-        private static Converter.BooleanToVisibilityConverter converter = new Converter.BooleanToVisibilityConverter();
+        private static Converters.BooleanToVisibilityConverter converter = new Converters.BooleanToVisibilityConverter();
 
         #region Convert
 

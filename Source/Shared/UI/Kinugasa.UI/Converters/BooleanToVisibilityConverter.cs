@@ -5,7 +5,7 @@ using Windows.UI.Xaml.Data;
 /// <summary>
 /// Provide converter for UI.
 /// </summary>
-namespace Kinugasa.UI.Converter
+namespace Kinugasa.UI.Converters
 {
     /// <summary>
     /// Convert boolean values to visibility.
