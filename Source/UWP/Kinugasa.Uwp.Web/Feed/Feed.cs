@@ -5,7 +5,7 @@ namespace Kinugasa.Uwp.Web.Feed
 {
     /// <summary>
     /// Content of RSS or Atom feed.
-    /// Wrapp of <see cref="SyndicationItem"/> class.
+    /// Wrapper of <see cref="SyndicationItem"/> class.
     /// </summary>
     public class Feed
     {

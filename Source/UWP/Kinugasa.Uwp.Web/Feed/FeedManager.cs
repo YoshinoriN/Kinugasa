@@ -46,7 +46,7 @@ namespace Kinugasa.Uwp.Web.Feed
         /// Get feed of specified uri's feed.
         /// </summary>
         /// <param name="uri">URL</param>
-        /// <returns><see cref="IList{T}"/> of <see cref="Feed"/></returns>
+        /// <returns><see cref="IList{Feed}"/> of <see cref="Feed"/></returns>
         public async Task<List<Feed>> GetFeeds(System.Uri uri)
         {
             var downloadedFeeds = new Downloader();
@@ -58,7 +58,7 @@ namespace Kinugasa.Uwp.Web.Feed
         /// Get feed of specified uri's feed by URL.
         /// </summary>
         /// <param name="url">URL</param>
-        /// <returns><see cref="IList{T}"/> of <see cref="Feed"/></returns>
+        /// <returns><see cref="IList{Feed}"/> of <see cref="Feed"/></returns>
         public async Task<List<Feed>> GetFeeds(string url)
         {
             var downloadedFeeds = new Downloader();
@@ -90,7 +90,7 @@ namespace Kinugasa.Uwp.Web.Feed
         }
 
         /// <summary>
-        /// Create all website's <see cref="IList{T}"/> <>
+        /// Create all website's <see cref="IList{Feed}"/> <>
         /// </summary>
         /// <param name="feeds"><see cref="IList{Feed}"/></param>
         private void AddAllWebSiteFeeds(IList<Feed> feeds)
