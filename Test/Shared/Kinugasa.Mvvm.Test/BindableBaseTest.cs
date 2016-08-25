@@ -38,7 +38,7 @@ namespace Mvvm.Test
         }
 
         [TestMethod]
-        public void OnPropertyChangedTestSuccess()
+        public void OnPropertyChangedReturnTrueTestSuccess()
         {
             var mockViewModel = new Mocks.MockViewModel();
 
@@ -47,6 +47,18 @@ namespace Mvvm.Test
             mockViewModel.MockInt = 1;
 
             Assert.IsTrue(invoked);
+        }
+
+        [TestMethod]
+        public void OnPropertyChangedReturnFalseTestSuccess()
+        {
+            var mockViewModel = new Mocks.MockViewModel();
+
+            bool invoked = false;
+            mockViewModel.PropertyChanged += (o, e) => { if (e.PropertyName.Equals("MockInt")) invoked = false; };
+            mockViewModel.MockInt = 1;
+
+            Assert.IsFalse(invoked);
         }
 
         [TestMethod]

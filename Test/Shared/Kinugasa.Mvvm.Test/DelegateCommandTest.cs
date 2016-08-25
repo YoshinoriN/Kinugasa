@@ -6,6 +6,21 @@ using System.Windows.Input;
 namespace Mvvm.Test
 {
     [TestClass]
+    public class DelegateCommandBaseTest
+    {
+        [TestMethod]
+        public void RaisCanExecute()
+        {
+            var command = new Kinugasa.Mvvm.DelegateCommand(Mocks.MockMethods.MockMethod, null);
+            bool canExecuteChangeraised = false;
+            command.CanExecuteChanged += delegate { canExecuteChangeraised = true; };
+            command.RaiseCanExecuteChanged();
+
+            Assert.IsTrue(canExecuteChangeraised);
+        }
+    }
+
+    [TestClass]
     public class DelegateCommandTest
     {
         [TestMethod]
