@@ -18,15 +18,20 @@ My Library for .NET
 |Static Code Analysis|SonarQube|Planning||
 |Coverage|CodeCov|[![codecov](https://codecov.io/gh/YoshinoriN/Kinugasa/branch/master/graph/badge.svg)](https://codecov.io/gh/YoshinoriN/Kinugasa)|Receive test coverage report from AppVeyor.|
 
-# Releases & Development plan
+# Releases & Development plan & Compatibility
 
 Please see [releases page](https://github.com/YoshinoriN/Kinugasa/releases), if you want to see deteal.
 
+## Compatibility
+
+* Classic can use PCL assembly. But can not use UWP assembly.
+* UWP can use PCL assembly. But can not use classic assembly.
+
 |NameSpace|Classic|PCL|UWP|Overview|Document|
 |---|---|---|---|---|---|
-|Mvvm|Same as PCL|[![](https://img.shields.io/badge/release-v1.1.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|[![](https://img.shields.io/badge/release-v1.1.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|Minimum MVVM library.|[Document](/Document/Mvvm.md)|
-|Regrex|Same as PCL|![](https://img.shields.io/badge/Canditate-v1.0.0-yellow.svg)|Same as PCL|Check regular expression library.||
-|UI|![](https://img.shields.io/badge/Canditate-TDB-yellow.svg)|[![](https://img.shields.io/badge/release-v1.0.1-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.UI.v1.0.1)|Same as PCL|User interface library.||
+|Mvvm|-|[![](https://img.shields.io/badge/release-v1.1.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|[![](https://img.shields.io/badge/release-v1.1.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|Minimum MVVM library.|[Document](/Document/Mvvm.md)|
+|Regrex|-|![](https://img.shields.io/badge/Canditate-v1.0.0-yellow.svg)|-|Check regular expression library.||
+|UI|![](https://img.shields.io/badge/Canditate-TDB-yellow.svg)|[![](https://img.shields.io/badge/release-v1.0.1-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.UI.v1.0.1)|-|User interface library.||
 |Web|-|-|[![](https://img.shields.io/badge/release-v1.0.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Uwp.Web.v1.0.0)|Web service operation library.|[Document](/Document/Web.md)|
 
 # Development
