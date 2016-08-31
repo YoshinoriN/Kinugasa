@@ -5,14 +5,14 @@ using Kinugasa.Map.Test.Models;
 namespace Kinugasa.Map.Test
 {
     [TestClass]
-    public class MapperTest
+    public class PropertyMapperTest
     {
         [TestMethod]
         public void MapTest()
         {
             var a = new ClassA();
             var b = new ClassB();
-            Mapper.Map(ref a, b);
+            PropertyMapper.Map(ref a, b);
 
             Assert.AreEqual(a.StringA, b.StringA);
             Assert.IsNull(a.StringB);
@@ -27,7 +27,7 @@ namespace Kinugasa.Map.Test
         {
             var a = new ClassA();
             var b = new ClassB();
-            Mapper.AttributeMap(ref a, b);
+            PropertyMapper.AttributeMap(ref a, b);
 
             Assert.IsNull(a.StringA);
             Assert.AreEqual(a.IntB, 0);

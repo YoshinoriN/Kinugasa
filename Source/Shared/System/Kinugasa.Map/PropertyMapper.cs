@@ -9,7 +9,7 @@ namespace Kinugasa.Map
     /// <summary>
     /// To map same properties value between classA and classB.
     /// </summary>
-    public static class Mapper
+    public static class PropertyMapper
     {
         /// <summary>
         /// To map same properties value between classA and classB.
