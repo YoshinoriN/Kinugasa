@@ -6,8 +6,8 @@
     <ProjectGuid>{BD1A183E-D590-464D-974B-2D0C8C76255E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Mvvm.Test</RootNamespace>
-    <AssemblyName>Mvvm.Test</AssemblyName>
+    <RootNamespace>Kinugasa.Mvvm.Test</RootNamespace>
+    <AssemblyName>Kinugasa.Mvvm.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{E19A97D9-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mvvm", "Mvvm", "{002C7E1D-F6E9-45E2-B731-8506F3996FF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinugasaMvvm.Test", "Test\Shared\Kinugasa.Mvvm.Test\KinugasaMvvm.Test.csproj", "{BD1A183E-D590-464D-974B-2D0C8C76255E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Mvvm.Test", "Test\Shared\Kinugasa.Mvvm.Test\Kinugasa.Mvvm.Test.csproj", "{BD1A183E-D590-464D-974B-2D0C8C76255E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Mvvm", "Source\Shared\Kinugasa.Mvvm\Kinugasa.Mvvm.csproj", "{3B314F51-434D-45DA-9A0D-A436B837050A}"
 EndProject
