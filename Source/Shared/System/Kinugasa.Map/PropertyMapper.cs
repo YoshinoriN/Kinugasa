@@ -15,14 +15,14 @@ namespace Kinugasa.Map
         /// To map same properties value between classA and classB.
         /// ClassB properties value will map to classA properties.
         /// </summary>
-        /// <typeparam name="Type">Instance of classA.</typeparam>
-        /// <typeparam name="Type2">Instance of classB.</typeparam>
-        public static void Map<Type, Type2>(ref Type T1, Type2 T2)
-            where Type : class
-            where Type2 : class
+        /// <typeparam name="TDestination">Instance of classA.</typeparam>
+        /// <typeparam name="TSource">Instance of classB.</typeparam>
+        public static void Map<TDestination, TSource>(ref TDestination destination, TSource source)
+            where TDestination : class
+            where TSource : class
         {
-            var typeInfo = T1.GetType().GetTypeInfo();
-            var typeInfo2 = T2.GetType().GetTypeInfo();
+            var typeInfo = destination.GetType().GetTypeInfo();
+            var typeInfo2 = source.GetType().GetTypeInfo();
 
             foreach (PropertyInfo propertyInfo in typeInfo.DeclaredProperties)
             {
@@ -30,8 +30,8 @@ namespace Kinugasa.Map
                 {
                     if (propertyInfo.Name == propertyInfo2.Name)
                     {
-                        propertyInfo.SetValue(T1, propertyInfo2.GetValue(T2));
-                        //TODO : break nested roop.
+                        propertyInfo.SetValue(destination, propertyInfo2.GetValue(source));
+                        break;
                     }
                 }
             }
@@ -42,31 +42,29 @@ namespace Kinugasa.Map
         /// ClassB properties value will map to classA properties, if classA's property use <see cref="MapAttribute"/>.
         /// ClassA have to specify classB's property name using by <see cref="MapAttribute"/>.
         /// </summary>
-        /// <typeparam name="Type">Instance of classA.</typeparam>
-        /// <typeparam name="Type2">Instance of classB.</typeparam>
-        public static void AttributeMap<Type, Type2>(ref Type T1, Type2 T2)
-            where Type : class
-            where Type2 : class
+        /// <typeparam name="TDestination">Instance of classA.</typeparam>
+        /// <typeparam name="TSource">Instance of classB.</typeparam>
+        public static void AttributeMap<TDestination, TSource>(ref TDestination destination, TSource source)
+            where TDestination : class
+            where TSource : class
         {
-            var typeInfo = T1.GetType().GetTypeInfo();
-            var typeInfo2 = T2.GetType().GetTypeInfo();
+            var typeInfo = destination.GetType().GetTypeInfo();
+            var typeInfo2 = source.GetType().GetTypeInfo();
 
             foreach (PropertyInfo propertyInfo in typeInfo.DeclaredProperties)
             {
                 var attribute = propertyInfo.GetCustomAttribute(typeof(MapAttribute));
-
                 if (attribute == null)
                 {
                     continue;
                 }
 
                 string attributeName = ((MapAttribute)attribute).AttributeName;
-
                 foreach (PropertyInfo propertyInfo2 in typeInfo2.DeclaredProperties)
                 {
                     if (attributeName == propertyInfo2.Name)
                     {
-                        propertyInfo.SetValue(T1, propertyInfo2.GetValue(T2));
+                        propertyInfo.SetValue(destination, propertyInfo2.GetValue(source));
                     }
                 }
             }
