@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using Kinugasa.Map.Attributes;
 
@@ -22,19 +23,12 @@ namespace Kinugasa.Map
             where TDestination : class
             where TSource : class
         {
-            var destinationProperties = destination.GetType().GetTypeInfo().DeclaredProperties;
             var sourceProperties = source.GetType().GetTypeInfo().DeclaredProperties;
+            var destinationProperties = destination.GetType().GetTypeInfo().DeclaredProperties.Where(dp => sourceProperties.Any(sp => sp.Name == dp.Name));
 
             foreach (PropertyInfo destinationPropertyInfo in destinationProperties)
             {
-                foreach (PropertyInfo sourcePropertyInfo in sourceProperties)
-                {
-                    if (destinationPropertyInfo.Name == sourcePropertyInfo.Name)
-                    {
-                        destinationPropertyInfo.SetValue(destination, sourcePropertyInfo.GetValue(source));
-                        break;
-                    }
-                }
+                destinationPropertyInfo.SetValue(destination, sourceProperties.First(sp => destinationPropertyInfo.Name == sp.Name).GetValue(source));
             }
         }
 
