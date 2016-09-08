@@ -6,6 +6,11 @@ namespace Kinugasa.Map.Test.Models
     {
         public string StringA { get; set; } = "A";
 
+        /// <summary>
+        /// Destination class dosen't have this property.
+        /// </summary>
+        public string StringC { get; set; } = "C";
+
         public int IntA { get; set; } = 1;
 
         public List<string> StringList { get; set; } = new List<string>() { "A", "B", "C" };
