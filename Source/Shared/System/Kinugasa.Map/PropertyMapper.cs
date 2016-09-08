@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Collections.Generic;
+using System.Reflection;
 using Kinugasa.Map.Attributes;
 
 /// <summary>
@@ -21,12 +22,12 @@ namespace Kinugasa.Map
             where TDestination : class
             where TSource : class
         {
-            var destinationTypeInfo = destination.GetType().GetTypeInfo();
-            var sourceTypeInfo = source.GetType().GetTypeInfo();
+            var destinationProperties = destination.GetType().GetTypeInfo().DeclaredProperties;
+            var sourceProperties = source.GetType().GetTypeInfo().DeclaredProperties;
 
-            foreach (PropertyInfo destinationPropertyInfo in destinationTypeInfo.DeclaredProperties)
+            foreach (PropertyInfo destinationPropertyInfo in destinationProperties)
             {
-                foreach (PropertyInfo sourcePropertyInfo in sourceTypeInfo.DeclaredProperties)
+                foreach (PropertyInfo sourcePropertyInfo in sourceProperties)
                 {
                     if (destinationPropertyInfo.Name == sourcePropertyInfo.Name)
                     {
@@ -48,10 +49,10 @@ namespace Kinugasa.Map
             where TDestination : class
             where TSource : class
         {
-            var destinationTypeInfo = destination.GetType().GetTypeInfo();
-            var sourceTypeInfo = source.GetType().GetTypeInfo();
+            var destinationProperties = destination.GetType().GetTypeInfo().DeclaredProperties;
+            var sourceProperties = source.GetType().GetTypeInfo().DeclaredProperties;
 
-            foreach (PropertyInfo destinationPropertyInfo in destinationTypeInfo.DeclaredProperties)
+            foreach (PropertyInfo destinationPropertyInfo in destinationProperties)
             {
                 var attribute = destinationPropertyInfo.GetCustomAttribute(typeof(MapAttribute));
                 if (attribute == null)
@@ -60,7 +61,7 @@ namespace Kinugasa.Map
                 }
 
                 string attributeName = ((MapAttribute)attribute).AttributeName;
-                foreach (PropertyInfo sourcePropertyInfo in sourceTypeInfo.DeclaredProperties)
+                foreach (PropertyInfo sourcePropertyInfo in sourceProperties)
                 {
                     if (attributeName == sourcePropertyInfo.Name)
                     {
