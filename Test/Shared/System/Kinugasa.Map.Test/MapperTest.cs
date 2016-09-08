@@ -10,8 +10,8 @@ namespace Kinugasa.Map.Test
         [TestMethod]
         public void MapTest()
         {
-            var a = new ClassA();
-            var b = new ClassB();
+            var a = new Destination();
+            var b = new Source();
             PropertyMapper.Map(ref a, b);
 
             Assert.AreEqual(a.StringA, b.StringA);
@@ -25,8 +25,8 @@ namespace Kinugasa.Map.Test
         [TestMethod]
         public void MapAttributeTest()
         {
-            var a = new ClassA();
-            var b = new ClassB();
+            var a = new Destination();
+            var b = new Source();
             PropertyMapper.AttributeMap(ref a, b);
 
             Assert.IsNull(a.StringA);

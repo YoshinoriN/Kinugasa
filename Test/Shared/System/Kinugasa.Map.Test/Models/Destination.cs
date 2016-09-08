@@ -3,7 +3,7 @@ using Kinugasa.Map.Attributes;
 
 namespace Kinugasa.Map.Test.Models
 {
-    public class ClassA
+    public class Destination
     {
         public string StringA { get; set; } = null;
 

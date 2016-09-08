@@ -2,7 +2,7 @@
 
 namespace Kinugasa.Map.Test.Models
 {
-    public class ClassB
+    public class Source
     {
         public string StringA { get; set; } = "A";
 
