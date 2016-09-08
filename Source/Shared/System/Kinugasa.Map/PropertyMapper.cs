@@ -21,16 +21,16 @@ namespace Kinugasa.Map
             where TDestination : class
             where TSource : class
         {
-            var typeInfo = destination.GetType().GetTypeInfo();
-            var typeInfo2 = source.GetType().GetTypeInfo();
+            var destinationTypeInfo = destination.GetType().GetTypeInfo();
+            var sourceTypeInfo = source.GetType().GetTypeInfo();
 
-            foreach (PropertyInfo propertyInfo in typeInfo.DeclaredProperties)
+            foreach (PropertyInfo destinationPropertyInfo in destinationTypeInfo.DeclaredProperties)
             {
-                foreach (PropertyInfo propertyInfo2 in typeInfo2.DeclaredProperties)
+                foreach (PropertyInfo sourcePropertyInfo in sourceTypeInfo.DeclaredProperties)
                 {
-                    if (propertyInfo.Name == propertyInfo2.Name)
+                    if (destinationPropertyInfo.Name == sourcePropertyInfo.Name)
                     {
-                        propertyInfo.SetValue(destination, propertyInfo2.GetValue(source));
+                        destinationPropertyInfo.SetValue(destination, sourcePropertyInfo.GetValue(source));
                         break;
                     }
                 }
@@ -48,23 +48,23 @@ namespace Kinugasa.Map
             where TDestination : class
             where TSource : class
         {
-            var typeInfo = destination.GetType().GetTypeInfo();
-            var typeInfo2 = source.GetType().GetTypeInfo();
+            var destinationTypeInfo = destination.GetType().GetTypeInfo();
+            var sourceTypeInfo = source.GetType().GetTypeInfo();
 
-            foreach (PropertyInfo propertyInfo in typeInfo.DeclaredProperties)
+            foreach (PropertyInfo destinationPropertyInfo in destinationTypeInfo.DeclaredProperties)
             {
-                var attribute = propertyInfo.GetCustomAttribute(typeof(MapAttribute));
+                var attribute = destinationPropertyInfo.GetCustomAttribute(typeof(MapAttribute));
                 if (attribute == null)
                 {
                     continue;
                 }
 
                 string attributeName = ((MapAttribute)attribute).AttributeName;
-                foreach (PropertyInfo propertyInfo2 in typeInfo2.DeclaredProperties)
+                foreach (PropertyInfo sourcePropertyInfo in sourceTypeInfo.DeclaredProperties)
                 {
-                    if (attributeName == propertyInfo2.Name)
+                    if (attributeName == sourcePropertyInfo.Name)
                     {
-                        propertyInfo.SetValue(destination, propertyInfo2.GetValue(source));
+                        destinationPropertyInfo.SetValue(destination, sourcePropertyInfo.GetValue(source));
                     }
                 }
             }
