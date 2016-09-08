@@ -50,8 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Models\ClassB.cs" />
-    <Compile Include="Models\ClassA.cs" />
+    <Compile Include="Models\Source.cs" />
+    <Compile Include="Models\Destination.cs" />
     <Compile Include="MapperTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

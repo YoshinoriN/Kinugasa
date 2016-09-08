@@ -2,9 +2,14 @@
 
 namespace Kinugasa.Map.Test.Models
 {
-    public class ClassB
+    public class Source
     {
         public string StringA { get; set; } = "A";
+
+        /// <summary>
+        /// Destination class dosen't have this property.
+        /// </summary>
+        public string StringC { get; set; } = "C";
 
         public int IntA { get; set; } = 1;
 
