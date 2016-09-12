@@ -30,6 +30,7 @@ Please see [releases page](https://github.com/YoshinoriN/Kinugasa/releases), if 
 |NameSpace|Classic|PCL|UWP|Overview|Document|
 |---|---|---|---|---|---|
 |Mvvm|-|[![](https://img.shields.io/badge/release-v1.1.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|[![](https://img.shields.io/badge/release-v1.1.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Mvvm.v1.1.0)|Minimum MVVM library.|[Document](/Document/Mvvm.md)|
+|Map|-|[![](https://img.shields.io/badge/release-v1.0.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Map.v1.0.0)|-|Values mapping libarary.||
 |Regrex|-|![](https://img.shields.io/badge/Canditate-v1.0.0-yellow.svg)|-|Check regular expression library.||
 |UI|![](https://img.shields.io/badge/Canditate-TDB-yellow.svg)|[![](https://img.shields.io/badge/release-v1.0.1-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.UI.v1.0.1)|-|User interface library.||
 |Web|-|-|[![](https://img.shields.io/badge/release-v1.0.0-blue.svg)](https://github.com/YoshinoriN/Kinugasa/releases/tag/Kinugasa.Uwp.Web.v1.0.0)|Web service operation library.|[Document](/Document/Web.md)|
