@@ -44,7 +44,7 @@ Please see [releases page](https://github.com/YoshinoriN/Kinugasa/releases), if 
 
 |Name|Type|Porpose|
 |---|---|---|
-|[OpenCober v4.6.519](https://github.com/OpenCover/opencover)|Nuget|Measure of test code coverage.|
+|[OpenCover v4.6.519](https://github.com/OpenCover/opencover)|Nuget|Measure of test code coverage.|
 
 
 # Build path
