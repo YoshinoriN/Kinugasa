@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.Map.Test", "Test\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.EnumExtensions", "Source\Shared\System\Kinugasa.EnumExtensions\Kinugasa.EnumExtensions.csproj", "{61575AC2-B6B7-45AE-84EC-134929AB1E19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kinugasa.EnumExtensions.Test", "Test\Shared\Kinugasa.EnumExtensions\Kinugasa.EnumExtensions.Test.csproj", "{74FAA9DE-BE19-466D-89AC-98126E1E21BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +263,22 @@ Global
 		{61575AC2-B6B7-45AE-84EC-134929AB1E19}.Release|x64.Build.0 = Release|Any CPU
 		{61575AC2-B6B7-45AE-84EC-134929AB1E19}.Release|x86.ActiveCfg = Release|Any CPU
 		{61575AC2-B6B7-45AE-84EC-134929AB1E19}.Release|x86.Build.0 = Release|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Debug|ARM.Build.0 = Debug|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Debug|x64.Build.0 = Debug|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Debug|x86.Build.0 = Debug|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Release|ARM.ActiveCfg = Release|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Release|ARM.Build.0 = Release|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Release|x64.ActiveCfg = Release|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Release|x64.Build.0 = Release|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Release|x86.ActiveCfg = Release|Any CPU
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -291,5 +309,6 @@ Global
 		{488F2BC6-1EBC-410F-906D-B57E1531F37D} = {A00C0CD6-EE91-4B31-A636-2FE0C8AD1F1C}
 		{F3C2F88E-54DA-4D0C-B134-70636ACB1F73} = {488F2BC6-1EBC-410F-906D-B57E1531F37D}
 		{61575AC2-B6B7-45AE-84EC-134929AB1E19} = {8F74DCBD-CF79-4190-A6D2-FC9E53193015}
+		{74FAA9DE-BE19-466D-89AC-98126E1E21BC} = {488F2BC6-1EBC-410F-906D-B57E1531F37D}
 	EndGlobalSection
 EndGlobal

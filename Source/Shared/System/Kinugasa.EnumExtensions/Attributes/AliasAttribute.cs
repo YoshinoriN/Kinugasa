@@ -2,7 +2,7 @@
 
 namespace Kinugasa.EnumExtensions.Attributes
 {
-    [AttributeUsage(AttributeTargets.Field, Inherited = false, AllowMultiple = false)]
+    [AttributeUsage(AttributeTargets.Enum | AttributeTargets.Field, Inherited = false, AllowMultiple = false)]
     public sealed class AliasAttribute : Attribute
     {
         public string AliasName { get; private set; }
