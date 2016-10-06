@@ -12,9 +12,9 @@ namespace Kinugasa.EnumExtensions.Test
             Assert.AreEqual("モック1", Alias.Mocks.MockEnum.Mock1.GetAlias());
             Assert.AreEqual("モック2", Alias.Mocks.MockEnum.Mock2.GetAlias());
             Assert.AreEqual("Mock3", Alias.Mocks.MockEnum.Mock3.GetAlias());
-            Assert.AreEqual("モック1", AliasNameParser.GetAlias(Alias.Mocks.MockEnum.Mock1));
-            Assert.AreEqual("モック2", AliasNameParser.GetAlias(Alias.Mocks.MockEnum.Mock2));
-            Assert.AreEqual("Mock3", AliasNameParser.GetAlias(Alias.Mocks.MockEnum.Mock3));
+            Assert.AreEqual("モック1", AliasName.GetAlias(Alias.Mocks.MockEnum.Mock1));
+            Assert.AreEqual("モック2", AliasName.GetAlias(Alias.Mocks.MockEnum.Mock2));
+            Assert.AreEqual("Mock3", AliasName.GetAlias(Alias.Mocks.MockEnum.Mock3));
         }
     }
 }
