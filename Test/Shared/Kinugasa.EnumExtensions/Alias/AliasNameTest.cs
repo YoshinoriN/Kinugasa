@@ -1,5 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Kinugasa.EnumExtensions.Services;
+using Kinugasa.EnumExtensions;
 
 namespace Kinugasa.EnumExtensions.Test
 {
@@ -12,9 +12,9 @@ namespace Kinugasa.EnumExtensions.Test
             Assert.AreEqual("モック1", Alias.Mocks.MockEnum.Mock1.GetAlias());
             Assert.AreEqual("モック2", Alias.Mocks.MockEnum.Mock2.GetAlias());
             Assert.AreEqual("Mock3", Alias.Mocks.MockEnum.Mock3.GetAlias());
-            Assert.AreEqual("モック1", AliasName.GetAlias(Alias.Mocks.MockEnum.Mock1));
-            Assert.AreEqual("モック2", AliasName.GetAlias(Alias.Mocks.MockEnum.Mock2));
-            Assert.AreEqual("Mock3", AliasName.GetAlias(Alias.Mocks.MockEnum.Mock3));
+            Assert.AreEqual("モック1", AliasService.GetAlias(Alias.Mocks.MockEnum.Mock1));
+            Assert.AreEqual("モック2", AliasService.GetAlias(Alias.Mocks.MockEnum.Mock2));
+            Assert.AreEqual("Mock3", AliasService.GetAlias(Alias.Mocks.MockEnum.Mock3));
         }
     }
 }

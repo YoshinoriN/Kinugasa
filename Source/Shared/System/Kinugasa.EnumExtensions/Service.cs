@@ -4,12 +4,12 @@ using Kinugasa.EnumExtensions.Attributes;
 /// <summary>
 /// Provide extension function for enum.
 /// </summary>
-namespace Kinugasa.EnumExtensions.Services
+namespace Kinugasa.EnumExtensions
 {
     /// <summary>
     /// Static functions for alias name.
     /// </summary>
-    public static class AliasName
+    public static class AliasService
     {
         /// <summary>
         /// Get alias name of enum.
