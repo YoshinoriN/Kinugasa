@@ -50,8 +50,8 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Alias\AliasNameTest.cs" />
-    <Compile Include="Alias\Mocks\MockEnum.cs" />
+    <Compile Include="AliasNameTest.cs" />
+    <Compile Include="Mocks\MockEnum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
